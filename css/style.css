@@ -1,0 +1,21 @@
+/*
+Gray: #B2B2B1
+Very Dark Gray: #1C1C1C
+*/
+
+body {
+    background-color: none;
+    font-family: "Quicksand", "sans-serif";
+}
+
+#header {
+    text-align: right;
+    margin: 0 auto;
+}
+
+.img-responsive {
+    max-height: 100px;
+    max-width: 100px;
+    text-align: left;
+    transform: translateY(100%);
+}
