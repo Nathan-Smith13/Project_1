@@ -15,16 +15,18 @@ body {
     margin-left: auto;
 }
 
+/*
 .row {
     margin: 0;
 }
+*/
 
 #header {
     text-align: right;
     margin: 0 auto;
     border-bottom-style: solid;
     border-color: gray;
-    height: 150px;
+    height: 140px;
 }
 
 #logo {
@@ -44,6 +46,37 @@ h1 {
 }
 
 .large-image {
-  margin-top: 11px;  
+  margin-top: 11px; 
+    padding: 0;
 }
+
+.main-image {
+    height: 550px;
+}
+.featured-work-wrapper > div {
+    
+    padding: 0;
+    
+}
+.featured-work-wrapper > div > img {
+    
+    padding: 0;
+    
+}
+/*
+.lesson-4-skills > img {
+    width: 230px;
+    height: 130px;
+}
+
+.lesson-5-skills > img {
+    width: 230px;
+    height: 130px;
+}
+
+.lesson-6-skills > img {
+    width: 230px;
+    height: 130px;
+}
+*/
 
