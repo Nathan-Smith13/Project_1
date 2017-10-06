@@ -51,32 +51,55 @@ h1 {
 }
 
 .main-image {
-    height: 550px;
+    width: 100%;
 }
+/*
 .featured-work-wrapper > div {
     
     padding: 0;
     
 }
+*/
+/*
 .featured-work-wrapper > div > img {
     
     padding: 0;
     
 }
-/*
+*/
+.lesson-4-skills {
+    padding-left: 0;
+}
+
+.lesson-5-skills  {
+    padding: 0 7px 0 7px;
+}
+
+.lesson-6-skills {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
 .lesson-4-skills > img {
-    width: 230px;
-    height: 130px;
+    width: 100%;
 }
 
 .lesson-5-skills > img {
-    width: 230px;
-    height: 130px;
+    width: 100%;
 }
 
 .lesson-6-skills > img {
-    width: 230px;
-    height: 130px;
+    width: 100%;
 }
-*/
 
+.featured-work-wrapper > div > h3 {
+    text-align: center;
+}
+
+h3 {
+    color: grey;
+}
+
+h2 {
+    color: grey;
+}
