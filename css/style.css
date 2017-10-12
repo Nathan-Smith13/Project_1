@@ -6,44 +6,28 @@ Very Dark Gray: #1C1C1C
 body {
     background-color: none;
     font-family: "Quicksand", "sans-serif";
-}
-
-.container-fluid {
     padding-right: 250px;
     padding-left: 250px;
-    margin-right: auto;
-    margin-left: auto;
 }
-
-/*
-.row {
-    margin: 0;
-}
-*/
 
 #header {
-    text-align: right;
-    margin: 0 auto;
+    
     border-bottom-style: solid;
     border-color: gray;
     height: 140px;
 }
 
 #logo {
-    max-width: 150px;
-    max-height: 150px;
-    transform: translateY(-1%);
+    max-height: 140px;
 }
 
 h4 {
     margin: 0;
-    transform: translateY(-570%);
     font-weight: 700;
 }
 
 h1 {
     margin: 0;
-    transform: translateY(-195%);
     font-family: 'Khula', sans-serif;
     font-size: 49px;
     opacity: .65;
@@ -108,3 +92,16 @@ h6 {
     text-align: center;
 }
 
+#header-text {
+    transform: translateY(50%);
+    padding-right: 0;
+    text-align: right;
+}
+
+#header-logo {
+    padding-left: 0;
+}
+
+.modal-body > img {
+    width: 100%
+}
